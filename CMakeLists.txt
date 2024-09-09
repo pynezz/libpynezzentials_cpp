@@ -3,4 +3,7 @@ project(libpynezzentials_cpp)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(libpynezzentials_cpp STATIC pynezzentials.cpp)
+include_directories(${CMAKE_SOURCE_DIR})
+
+add_library(libpynezzentials_cpp STATIC pynezzentials/pynezzentials.cpp
+        pynezzentials/pynezzentials.h)

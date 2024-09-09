@@ -1,4 +1,4 @@
-#include "pynezzentials.h"
+#include <pynezzentials/pynezzentials.h>
 
 // Helper functions
 void SetCursorPos(int x, int y) {
