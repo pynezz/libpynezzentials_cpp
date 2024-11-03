@@ -9,7 +9,8 @@
 #include <cstdio>
 #include <cstdarg>
 
-namespace pynezzentials {
+
+namespace ezz {
     // Ansi colors
     const std::string Reset = "\033[0m"; // Reset the escape sequence
     const std::string Red = "\033[31m";

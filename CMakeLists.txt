@@ -5,5 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 include_directories(${CMAKE_SOURCE_DIR})
 
-add_library(libpynezzentials_cpp STATIC pynezzentials/pynezzentials.cpp.old
-        pynezzentials/pynezzentials.h)
+add_library(libpynezzentials_cpp STATIC
+        pynezzentials/pynezzentials.h
+)
